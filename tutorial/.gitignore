@@ -1,0 +1,14 @@
+*.hex
+*.asm
+*.ini
+*.log
+._*
+*.wlf
+.deps
+Makefile
+modelsim.ini
+transcript
+fpga
+mapped
+scripts
+work

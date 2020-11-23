@@ -1,0 +1,821 @@
+processing file asmFiles/test.branchjump1.asm (1 of 8)
+Reading pref.tcl
+
+# 10.7a
+
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# vsim -coverage -suppress 12110 -c -do "run -all; exit;" -L altera_mf_ver -L altera_ver -L cycloneive_ver -wlf system_tb.wlf work.system_tb 
+# Start time: 22:19:40 on Nov 03,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim
+# //  Version 10.7a linux Mar 26 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.system_tb(fast)
+# Loading work.cpu_types_pkg(fast)
+# Loading work.system_if(fast)
+# Loading work.test(fast)
+# Loading work.system(fast)
+# Loading work.cpu_ram_if(fast)
+# Loading work.pipeline(fast)
+# Loading work.datapath_cache_if(fast)
+# Loading work.caches_if(fast__1)
+# Loading work.cache_control_if(fast)
+# Loading work.datapath(fast)
+# Loading work.fetch_if(fast)
+# Loading work.decode_if(fast)
+# Loading work.execute_if(fast)
+# Loading work.memory_if(fast)
+# Loading work.write_back_if(fast)
+# Loading work.hazard_unit_if(fast)
+# Loading work.forward_unit_if(fast)
+# Loading work.alu_if(fast)
+# Loading work.cpu_control_if(fast)
+# Loading work.decoder_if(fast)
+# Loading work.pc_if(fast)
+# Loading work.register_file_if(fast)
+# Loading work.extender_if(fast)
+# Loading work.cpu_control(fast)
+# Loading work.decoder(fast)
+# Loading work.pc(fast)
+# Loading work.register_file(fast)
+# Loading work.extender(fast)
+# Loading work.alu(fast)
+# Loading work.forward_unit(fast)
+# Loading work.fetch(fast)
+# Loading work.decode(fast)
+# Loading work.execute(fast)
+# Loading work.memory(fast)
+# Loading work.write_back(fast)
+# Loading work.hazard_unit(fast)
+# Loading work.caches(fast)
+# Loading work.icache(fast)
+# Loading work.dcache(fast)
+# Loading work.memory_control(fast)
+# Loading work.ram(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# run -all
+# Starting Processor.
+# Halted at 1920 time and ran for         95 cycles.
+# Starting memory dump.
+# Finished memory dump.
+# End time: 22:19:41 on Nov 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+11 instructions
+processing file asmFiles/test.coherence1.asm (2 of 8)
+Reading pref.tcl
+
+# 10.7a
+
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# vsim -coverage -suppress 12110 -c -do "run -all; exit;" -L altera_mf_ver -L altera_ver -L cycloneive_ver -wlf system_tb.wlf work.system_tb 
+# Start time: 22:19:43 on Nov 03,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim
+# //  Version 10.7a linux Mar 26 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.system_tb(fast)
+# Loading work.cpu_types_pkg(fast)
+# Loading work.system_if(fast)
+# Loading work.test(fast)
+# Loading work.system(fast)
+# Loading work.cpu_ram_if(fast)
+# Loading work.pipeline(fast)
+# Loading work.datapath_cache_if(fast)
+# Loading work.caches_if(fast__1)
+# Loading work.cache_control_if(fast)
+# Loading work.datapath(fast)
+# Loading work.fetch_if(fast)
+# Loading work.decode_if(fast)
+# Loading work.execute_if(fast)
+# Loading work.memory_if(fast)
+# Loading work.write_back_if(fast)
+# Loading work.hazard_unit_if(fast)
+# Loading work.forward_unit_if(fast)
+# Loading work.alu_if(fast)
+# Loading work.cpu_control_if(fast)
+# Loading work.decoder_if(fast)
+# Loading work.pc_if(fast)
+# Loading work.register_file_if(fast)
+# Loading work.extender_if(fast)
+# Loading work.cpu_control(fast)
+# Loading work.decoder(fast)
+# Loading work.pc(fast)
+# Loading work.register_file(fast)
+# Loading work.extender(fast)
+# Loading work.alu(fast)
+# Loading work.forward_unit(fast)
+# Loading work.fetch(fast)
+# Loading work.decode(fast)
+# Loading work.execute(fast)
+# Loading work.memory(fast)
+# Loading work.write_back(fast)
+# Loading work.hazard_unit(fast)
+# Loading work.caches(fast)
+# Loading work.icache(fast)
+# Loading work.dcache(fast)
+# Loading work.memory_control(fast)
+# Loading work.ram(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# run -all
+# Starting Processor.
+# Halted at 1720 time and ran for         85 cycles.
+# Starting memory dump.
+# Finished memory dump.
+# End time: 22:19:44 on Nov 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+9 instructions
+processing file asmFiles/test.coherence2.asm (3 of 8)
+Reading pref.tcl
+
+# 10.7a
+
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# vsim -coverage -suppress 12110 -c -do "run -all; exit;" -L altera_mf_ver -L altera_ver -L cycloneive_ver -wlf system_tb.wlf work.system_tb 
+# Start time: 22:19:45 on Nov 03,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim
+# //  Version 10.7a linux Mar 26 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.system_tb(fast)
+# Loading work.cpu_types_pkg(fast)
+# Loading work.system_if(fast)
+# Loading work.test(fast)
+# Loading work.system(fast)
+# Loading work.cpu_ram_if(fast)
+# Loading work.pipeline(fast)
+# Loading work.datapath_cache_if(fast)
+# Loading work.caches_if(fast__1)
+# Loading work.cache_control_if(fast)
+# Loading work.datapath(fast)
+# Loading work.fetch_if(fast)
+# Loading work.decode_if(fast)
+# Loading work.execute_if(fast)
+# Loading work.memory_if(fast)
+# Loading work.write_back_if(fast)
+# Loading work.hazard_unit_if(fast)
+# Loading work.forward_unit_if(fast)
+# Loading work.alu_if(fast)
+# Loading work.cpu_control_if(fast)
+# Loading work.decoder_if(fast)
+# Loading work.pc_if(fast)
+# Loading work.register_file_if(fast)
+# Loading work.extender_if(fast)
+# Loading work.cpu_control(fast)
+# Loading work.decoder(fast)
+# Loading work.pc(fast)
+# Loading work.register_file(fast)
+# Loading work.extender(fast)
+# Loading work.alu(fast)
+# Loading work.forward_unit(fast)
+# Loading work.fetch(fast)
+# Loading work.decode(fast)
+# Loading work.execute(fast)
+# Loading work.memory(fast)
+# Loading work.write_back(fast)
+# Loading work.hazard_unit(fast)
+# Loading work.caches(fast)
+# Loading work.icache(fast)
+# Loading work.dcache(fast)
+# Loading work.memory_control(fast)
+# Loading work.ram(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# run -all
+processing file asmFiles/test.ldst1.asm (1 of 2)
+Reading pref.tcl
+
+# 10.7a
+
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# vsim -coverage -suppress 12110 -c -do "run -all; exit;" -L altera_mf_ver -L altera_ver -L cycloneive_ver -wlf system_tb.wlf work.system_tb 
+# Start time: 22:20:10 on Nov 03,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "dcache(fast)".
+###### include/cache_control_if.vh(79):       iREN[1] = cif1.iREN;
+# ** Warning: include/cache_control_if.vh(79): (vopt-2576) [BSOB] - Bit-select into 'iREN' is out of bounds.
+###### include/cache_control_if.vh(80):       dREN[1] = cif1.dREN;
+# ** Warning: include/cache_control_if.vh(80): (vopt-2576) [BSOB] - Bit-select into 'dREN' is out of bounds.
+###### include/cache_control_if.vh(81):       dWEN[1] = cif1.dWEN;
+# ** Warning: include/cache_control_if.vh(81): (vopt-2576) [BSOB] - Bit-select into 'dWEN' is out of bounds.
+###### include/cache_control_if.vh(82):       dstore[1] = cif1.dstore;
+# ** Warning: include/cache_control_if.vh(82): (vopt-2696) Element index 1 into 'dstore' is out of bounds.
+# ** Warning: include/cache_control_if.vh(82): (vopt-2696) Element index 1 into 'dstore' is out of bounds.
+###### include/cache_control_if.vh(83):       iaddr[1] = cif1.iaddr;
+# ** Warning: include/cache_control_if.vh(83): (vopt-2696) Element index 1 into 'iaddr' is out of bounds.
+# ** Warning: include/cache_control_if.vh(83): (vopt-2696) Element index 1 into 'iaddr' is out of bounds.
+###### include/cache_control_if.vh(84):       daddr[1] = cif1.daddr;
+# ** Warning: include/cache_control_if.vh(84): (vopt-2696) Element index 1 into 'daddr' is out of bounds.
+# ** Warning: include/cache_control_if.vh(84): (vopt-2696) Element index 1 into 'daddr' is out of bounds.
+###### include/cache_control_if.vh(85):       ccwrite[1] = cif1.ccwrite;
+# ** Warning: include/cache_control_if.vh(85): (vopt-2576) [BSOB] - Bit-select into 'ccwrite' is out of bounds.
+###### include/cache_control_if.vh(86):       cctrans[1] = cif1.cctrans;
+# ** Warning: include/cache_control_if.vh(86): (vopt-2576) [BSOB] - Bit-select into 'cctrans' is out of bounds.
+###### include/cache_control_if.vh(95):       cif1.iwait = iwait[1];
+# ** Warning: include/cache_control_if.vh(95): (vopt-2576) [BSOB] - Bit-select into 'iwait' is out of bounds.
+###### include/cache_control_if.vh(96):       cif1.dwait = dwait[1];
+# ** Warning: include/cache_control_if.vh(96): (vopt-2576) [BSOB] - Bit-select into 'dwait' is out of bounds.
+###### include/cache_control_if.vh(99):       cif1.ccwait = ccwait[1];
+# ** Warning: include/cache_control_if.vh(99): (vopt-2576) [BSOB] - Bit-select into 'ccwait' is out of bounds.
+###### include/cache_control_if.vh(100):       cif1.ccinv = ccinv[1];
+# ** Warning: include/cache_control_if.vh(100): (vopt-2576) [BSOB] - Bit-select into 'ccinv' is out of bounds.
+# //  Questa Sim
+# //  Version 10.7a linux Mar 26 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.system_tb(fast)
+# Loading work.cpu_types_pkg(fast)
+# Loading work.system_if(fast)
+# Loading work.test(fast)
+# Loading work.system(fast)
+# Loading work.cpu_ram_if(fast)
+# Loading work.pipeline(fast)
+# Loading work.datapath_cache_if(fast)
+# Loading work.caches_if(fast__1)
+# Loading work.cache_control_if(fast)
+# Loading work.datapath(fast)
+# Loading work.fetch_if(fast)
+# Loading work.decode_if(fast)
+# Loading work.execute_if(fast)
+# Loading work.memory_if(fast)
+# Loading work.write_back_if(fast)
+# Loading work.hazard_unit_if(fast)
+# Loading work.forward_unit_if(fast)
+# Loading work.alu_if(fast)
+# Loading work.cpu_control_if(fast)
+# Loading work.decoder_if(fast)
+# Loading work.pc_if(fast)
+# Loading work.register_file_if(fast)
+# Loading work.extender_if(fast)
+# Loading work.cpu_control(fast)
+# Loading work.decoder(fast)
+# Loading work.pc(fast)
+# Loading work.register_file(fast)
+# Loading work.extender(fast)
+# Loading work.alu(fast)
+# Loading work.forward_unit(fast)
+# Loading work.fetch(fast)
+# Loading work.decode(fast)
+# Loading work.execute(fast)
+# Loading work.memory(fast)
+# Loading work.write_back(fast)
+# Loading work.hazard_unit(fast)
+# Loading work.caches(fast)
+# Loading work.icache(fast)
+# Loading work.dcache(fast)
+# Loading work.memory_control(fast)
+# Loading work.ram(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# run -all
+# Starting Processor.
+# Halted at 2000 time and ran for         99 cycles.
+# Starting memory dump.
+# Finished memory dump.
+# End time: 22:20:15 on Nov 03,2020, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 15
+14 instructions
+processing file asmFiles/test.ldst2.asm (2 of 2)
+Reading pref.tcl
+
+# 10.7a
+
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# vsim -coverage -suppress 12110 -c -do "run -all; exit;" -L altera_mf_ver -L altera_ver -L cycloneive_ver -wlf system_tb.wlf work.system_tb 
+# Start time: 22:20:17 on Nov 03,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# //  Questa Sim
+# //  Version 10.7a linux Mar 26 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.system_tb(fast)
+# Loading work.cpu_types_pkg(fast)
+# Loading work.system_if(fast)
+# Loading work.test(fast)
+# Loading work.system(fast)
+# Loading work.cpu_ram_if(fast)
+# Loading work.pipeline(fast)
+# Loading work.datapath_cache_if(fast)
+# Loading work.caches_if(fast__1)
+# Loading work.cache_control_if(fast)
+# Loading work.datapath(fast)
+# Loading work.fetch_if(fast)
+# Loading work.decode_if(fast)
+# Loading work.execute_if(fast)
+# Loading work.memory_if(fast)
+# Loading work.write_back_if(fast)
+# Loading work.hazard_unit_if(fast)
+# Loading work.forward_unit_if(fast)
+# Loading work.alu_if(fast)
+# Loading work.cpu_control_if(fast)
+# Loading work.decoder_if(fast)
+# Loading work.pc_if(fast)
+# Loading work.register_file_if(fast)
+# Loading work.extender_if(fast)
+# Loading work.cpu_control(fast)
+# Loading work.decoder(fast)
+# Loading work.pc(fast)
+# Loading work.register_file(fast)
+# Loading work.extender(fast)
+# Loading work.alu(fast)
+# Loading work.forward_unit(fast)
+# Loading work.fetch(fast)
+# Loading work.decode(fast)
+# Loading work.execute(fast)
+# Loading work.memory(fast)
+# Loading work.write_back(fast)
+# Loading work.hazard_unit(fast)
+# Loading work.caches(fast)
+# Loading work.icache(fast)
+# Loading work.dcache(fast)
+# Loading work.memory_control(fast)
+# Loading work.ram(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# run -all
+# Starting Processor.
+# Halted at 2080 time and ran for        103 cycles.
+# Starting memory dump.
+# Finished memory dump.
+# End time: 22:20:18 on Nov 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+15 instructions
+processing file asmFiles/mult.asm (1 of 2)
+Reading pref.tcl
+
+# 10.7a
+
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# vsim -coverage -suppress 12110 -c -do "run -all; exit;" -L altera_mf_ver -L altera_ver -L cycloneive_ver -wlf system_tb.wlf work.system_tb 
+# Start time: 22:20:24 on Nov 03,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# //  Questa Sim
+# //  Version 10.7a linux Mar 26 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.system_tb(fast)
+# Loading work.cpu_types_pkg(fast)
+# Loading work.system_if(fast)
+# Loading work.test(fast)
+# Loading work.system(fast)
+# Loading work.cpu_ram_if(fast)
+# Loading work.pipeline(fast)
+# Loading work.datapath_cache_if(fast)
+# Loading work.caches_if(fast__1)
+# Loading work.cache_control_if(fast)
+# Loading work.datapath(fast)
+# Loading work.fetch_if(fast)
+# Loading work.decode_if(fast)
+# Loading work.execute_if(fast)
+# Loading work.memory_if(fast)
+# Loading work.write_back_if(fast)
+# Loading work.hazard_unit_if(fast)
+# Loading work.forward_unit_if(fast)
+# Loading work.alu_if(fast)
+# Loading work.cpu_control_if(fast)
+# Loading work.decoder_if(fast)
+# Loading work.pc_if(fast)
+# Loading work.register_file_if(fast)
+# Loading work.extender_if(fast)
+# Loading work.cpu_control(fast)
+# Loading work.decoder(fast)
+# Loading work.pc(fast)
+# Loading work.register_file(fast)
+# Loading work.extender(fast)
+# Loading work.alu(fast)
+# Loading work.forward_unit(fast)
+# Loading work.fetch(fast)
+# Loading work.decode(fast)
+# Loading work.execute(fast)
+# Loading work.memory(fast)
+# Loading work.write_back(fast)
+# Loading work.hazard_unit(fast)
+# Loading work.caches(fast)
+# Loading work.icache(fast)
+# Loading work.dcache(fast)
+# Loading work.memory_control(fast)
+# Loading work.ram(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# run -all
+# Starting Processor.
+# Halted at 24560 time and ran for       1227 cycles.
+# Starting memory dump.
+# Finished memory dump.
+# End time: 22:20:25 on Nov 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+277 instructions
+processing file asmFiles/mult_procedure.asm (2 of 2)
+Reading pref.tcl
+
+# 10.7a
+
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# vsim -coverage -suppress 12110 -c -do "run -all; exit;" -L altera_mf_ver -L altera_ver -L cycloneive_ver -wlf system_tb.wlf work.system_tb 
+# Start time: 22:20:27 on Nov 03,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# //  Questa Sim
+# //  Version 10.7a linux Mar 26 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.system_tb(fast)
+# Loading work.cpu_types_pkg(fast)
+# Loading work.system_if(fast)
+# Loading work.test(fast)
+# Loading work.system(fast)
+# Loading work.cpu_ram_if(fast)
+# Loading work.pipeline(fast)
+# Loading work.datapath_cache_if(fast)
+# Loading work.caches_if(fast__1)
+# Loading work.cache_control_if(fast)
+# Loading work.datapath(fast)
+# Loading work.fetch_if(fast)
+# Loading work.decode_if(fast)
+# Loading work.execute_if(fast)
+# Loading work.memory_if(fast)
+# Loading work.write_back_if(fast)
+# Loading work.hazard_unit_if(fast)
+# Loading work.forward_unit_if(fast)
+# Loading work.alu_if(fast)
+# Loading work.cpu_control_if(fast)
+# Loading work.decoder_if(fast)
+# Loading work.pc_if(fast)
+# Loading work.register_file_if(fast)
+# Loading work.extender_if(fast)
+# Loading work.cpu_control(fast)
+# Loading work.decoder(fast)
+# Loading work.pc(fast)
+# Loading work.register_file(fast)
+# Loading work.extender(fast)
+# Loading work.alu(fast)
+# Loading work.forward_unit(fast)
+# Loading work.fetch(fast)
+# Loading work.decode(fast)
+# Loading work.execute(fast)
+# Loading work.memory(fast)
+# Loading work.write_back(fast)
+# Loading work.hazard_unit(fast)
+# Loading work.caches(fast)
+# Loading work.icache(fast)
+# Loading work.dcache(fast)
+# Loading work.memory_control(fast)
+# Loading work.ram(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# run -all
+# Starting Processor.
+# Halted at 74560 time and ran for       3727 cycles.
+# Starting memory dump.
+# Finished memory dump.
+# End time: 22:20:28 on Nov 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+835 instructions
+processing file asmFiles/fib.asm (1 of 1)
+Reading pref.tcl
+
+# 10.7a
+
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# vsim -coverage -suppress 12110 -c -do "run -all; exit;" -L altera_mf_ver -L altera_ver -L cycloneive_ver -wlf system_tb.wlf work.system_tb 
+# Start time: 22:20:36 on Nov 03,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# //  Questa Sim
+# //  Version 10.7a linux Mar 26 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.system_tb(fast)
+# Loading work.cpu_types_pkg(fast)
+# Loading work.system_if(fast)
+# Loading work.test(fast)
+# Loading work.system(fast)
+# Loading work.cpu_ram_if(fast)
+# Loading work.pipeline(fast)
+# Loading work.datapath_cache_if(fast)
+# Loading work.caches_if(fast__1)
+# Loading work.cache_control_if(fast)
+# Loading work.datapath(fast)
+# Loading work.fetch_if(fast)
+# Loading work.decode_if(fast)
+# Loading work.execute_if(fast)
+# Loading work.memory_if(fast)
+# Loading work.write_back_if(fast)
+# Loading work.hazard_unit_if(fast)
+# Loading work.forward_unit_if(fast)
+# Loading work.alu_if(fast)
+# Loading work.cpu_control_if(fast)
+# Loading work.decoder_if(fast)
+# Loading work.pc_if(fast)
+# Loading work.register_file_if(fast)
+# Loading work.extender_if(fast)
+# Loading work.cpu_control(fast)
+# Loading work.decoder(fast)
+# Loading work.pc(fast)
+# Loading work.register_file(fast)
+# Loading work.extender(fast)
+# Loading work.alu(fast)
+# Loading work.forward_unit(fast)
+# Loading work.fetch(fast)
+# Loading work.decode(fast)
+# Loading work.execute(fast)
+# Loading work.memory(fast)
+# Loading work.write_back(fast)
+# Loading work.hazard_unit(fast)
+# Loading work.caches(fast)
+# Loading work.icache(fast)
+# Loading work.dcache(fast)
+# Loading work.memory_control(fast)
+# Loading work.ram(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# run -all
+# Starting Processor.
+# Halted at 19120 time and ran for        955 cycles.
+# Starting memory dump.
+# Finished memory dump.
+# End time: 22:20:37 on Nov 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+160 instructions
+processing file asmFiles/search.asm (1 of 1)
+Reading pref.tcl
+
+# 10.7a
+
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# vsim -coverage -suppress 12110 -c -do "run -all; exit;" -L altera_mf_ver -L altera_ver -L cycloneive_ver -wlf system_tb.wlf work.system_tb 
+# Start time: 22:20:42 on Nov 03,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# //  Questa Sim
+# //  Version 10.7a linux Mar 26 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.system_tb(fast)
+# Loading work.cpu_types_pkg(fast)
+# Loading work.system_if(fast)
+# Loading work.test(fast)
+# Loading work.system(fast)
+# Loading work.cpu_ram_if(fast)
+# Loading work.pipeline(fast)
+# Loading work.datapath_cache_if(fast)
+# Loading work.caches_if(fast__1)
+# Loading work.cache_control_if(fast)
+# Loading work.datapath(fast)
+# Loading work.fetch_if(fast)
+# Loading work.decode_if(fast)
+# Loading work.execute_if(fast)
+# Loading work.memory_if(fast)
+# Loading work.write_back_if(fast)
+# Loading work.hazard_unit_if(fast)
+# Loading work.forward_unit_if(fast)
+# Loading work.alu_if(fast)
+# Loading work.cpu_control_if(fast)
+# Loading work.decoder_if(fast)
+# Loading work.pc_if(fast)
+# Loading work.register_file_if(fast)
+# Loading work.extender_if(fast)
+# Loading work.cpu_control(fast)
+# Loading work.decoder(fast)
+# Loading work.pc(fast)
+# Loading work.register_file(fast)
+# Loading work.extender(fast)
+# Loading work.alu(fast)
+# Loading work.forward_unit(fast)
+# Loading work.fetch(fast)
+# Loading work.decode(fast)
+# Loading work.execute(fast)
+# Loading work.memory(fast)
+# Loading work.write_back(fast)
+# Loading work.hazard_unit(fast)
+# Loading work.caches(fast)
+# Loading work.icache(fast)
+# Loading work.dcache(fast)
+# Loading work.memory_control(fast)
+# Loading work.ram(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# run -all
+# Starting Processor.
+# Halted at 39000 time and ran for       1949 cycles.
+# Starting memory dump.
+# Finished memory dump.
+# End time: 22:20:43 on Nov 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+278 instructions
+processing file asmFiles/mergesort.asm (1 of 1)
+Reading pref.tcl
+
+# 10.7a
+
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable ToggleWidthLimit are found, only first occurence will be considered.
+# vsim -coverage -suppress 12110 -c -do "run -all; exit;" -L altera_mf_ver -L altera_ver -L cycloneive_ver -wlf system_tb.wlf work.system_tb 
+# Start time: 22:20:53 on Nov 03,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# //  Questa Sim
+# //  Version 10.7a linux Mar 26 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.system_tb(fast)
+# Loading work.cpu_types_pkg(fast)
+# Loading work.system_if(fast)
+# Loading work.test(fast)
+# Loading work.system(fast)
+# Loading work.cpu_ram_if(fast)
+# Loading work.pipeline(fast)
+# Loading work.datapath_cache_if(fast)
+# Loading work.caches_if(fast__1)
+# Loading work.cache_control_if(fast)
+# Loading work.datapath(fast)
+# Loading work.fetch_if(fast)
+# Loading work.decode_if(fast)
+# Loading work.execute_if(fast)
+# Loading work.memory_if(fast)
+# Loading work.write_back_if(fast)
+# Loading work.hazard_unit_if(fast)
+# Loading work.forward_unit_if(fast)
+# Loading work.alu_if(fast)
+# Loading work.cpu_control_if(fast)
+# Loading work.decoder_if(fast)
+# Loading work.pc_if(fast)
+# Loading work.register_file_if(fast)
+# Loading work.extender_if(fast)
+# Loading work.cpu_control(fast)
+# Loading work.decoder(fast)
+# Loading work.pc(fast)
+# Loading work.register_file(fast)
+# Loading work.extender(fast)
+# Loading work.alu(fast)
+# Loading work.forward_unit(fast)
+# Loading work.fetch(fast)
+# Loading work.decode(fast)
+# Loading work.execute(fast)
+# Loading work.memory(fast)
+# Loading work.write_back(fast)
+# Loading work.hazard_unit(fast)
+# Loading work.caches(fast)
+# Loading work.icache(fast)
+# Loading work.dcache(fast)
+# Loading work.memory_control(fast)
+# Loading work.ram(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# run -all
+# Starting Processor.
+# Halted at 531080 time and ran for      26553 cycles.
+# Starting memory dump.
+# Finished memory dump.
+# End time: 22:20:55 on Nov 03,2020, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+5404 instructions

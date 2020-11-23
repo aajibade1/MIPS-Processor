@@ -1,0 +1,20 @@
+Sun Nov 15 18:39:44 EST 2020
+Trace back: bad option "xview": must be cget or configure
+    while executing
+"$w xview scroll $amt $what"
+    (procedure "grid_mouseButton" line 19)
+    invoked from within
+"grid_mouseButton .main_pane.wave.interior.cs.body.pw.wf.grid.row1,selector.data .main_pane.wave.interior.cs.body.pw.wf.grid .main_pane.wave.interior.c..."
+    (command bound to event)
+  <2:/package/eda/mg/questa10.7a/questasim/linux/tk8.6/bgerror.tcl:106: ::tkerror {bad option "xview": must be cget or configure}
+  <1:eval:1: ::tk::dialog::error::bgerror {bad option "xview": must be cget or configure}
+Wed Nov 18 17:54:37 EST 2020
+Trace back: invalid command name "::.main_pane.wave.interior.cs.body.pw.wf.sig_dlg.nb.canvas.notebook.cs.page3.cs.when.expr"
+    while executing
+"::.main_pane.wave.interior.cs.body.pw.wf.sig_dlg.nb.canvas.notebook.cs.page3.cs.when.expr _checkLength"
+    (in namespace inscope "::iwidgets::Entryfield" script line 1)
+    invoked from within
+"namespace inscope ::iwidgets::Entryfield {::.main_pane.wave.interior.cs.body.pw.wf.sig_dlg.nb.canvas.notebook.cs.page3.cs.when.expr _checkLength}"
+    (command bound to event)
+  <2:/package/eda/mg/questa10.7a/questasim/linux/tk8.6/bgerror.tcl:106: ::tkerror {invalid command name "::.main_pane.wave.interior.cs.body.pw.wf.sig_dlg.nb.canvas.notebook.cs.page3.cs.when.expr"}
+  <1:eval:1: ::tk::dialog::error::bgerror {invalid command name "::.main_pane.wave.interior.cs.body.pw.wf.sig_dlg.nb.canvas.notebook.cs.page3.cs.when.expr"}

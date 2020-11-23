@@ -1,0 +1,9 @@
+var g_data = {'dummy':{null},
+'work.control_unit_if':{h:'4',t:1,z:1},
+'/control_unit_tb/cuif':{h:'11',t:1,z:1},
+'work.test':{h:'6',s:1,t:1,z:1},
+'/control_unit_tb/PROG':{h:'106',s:1,t:1,z:1},
+'work.control_unit':{h:'7',s:1,b:1,c:1,z:1},
+'/control_unit_tb/DUT':{h:'142',s:1,b:1,c:1,z:1},
+'work.control_unit_tb':{h:'2',s:1,t:1,z:1},
+'/control_unit_tb':{h:'8',s:1,t:1,z:1}};
